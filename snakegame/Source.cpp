@@ -110,7 +110,7 @@ int main()
 				screen[i] = L'=';
 				screen[2 * nScreenWidth + i] = L'=';
 			}
-			wsprintf(&screen[nScreenWidth + 5], L"www.OneLoneCoder.com - S N A K E ! !                SCORE: %d", nScore);
+			wsprintf(&screen[nScreenWidth + 5], L" S N A K E ! !                SCORE: %d", nScore);
 
 			//Draw snake body
 			for (auto s : snake)
